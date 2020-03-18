@@ -9,7 +9,7 @@ import "./Main.css";
 export default function Main() {
     const [data, setData] = useState([]);
     useEffect(() => {
-        axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+        axios.get('https://api.nasa.gov/planetary/apod?api_key=x6Odw95aWRckf2rOsKvIrS3MNjyFWgnQvwkk5W3D')
         .then(response => {
             console.log(response.data);
             setData(response.data);
@@ -26,6 +26,8 @@ export default function Main() {
                 return (
                     <div>
                     <Image imgUrl = {item.hdurl} />
+                    <img id="nasa" src="https://salient-tech.com/wp-content/uploads/2014/08/NASA-worm-logo.png"></img>
+                    
                     <Text 
                         title = {item.title}
                         date = {item.date}

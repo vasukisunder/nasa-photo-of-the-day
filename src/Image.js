@@ -4,7 +4,10 @@ import "./Main.css";
 
 export default function Image(props) {
     return(
-        <img src={props.imgUrl}></img>
+        <div>
+            <img id="apod" src={props.imgUrl}></img>
+            
+        </div>
 
     )
 }
