@@ -3,6 +3,7 @@ import axios from "axios";
 import Image from "./Image.js";
 import Text from "./Text.js";
 import "./index.css";
+import "./Main.css";
 
 
 export default function Main() {

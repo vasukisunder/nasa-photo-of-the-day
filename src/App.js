@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./Main.css";
 import "./Main";
 import Main from "./Main";
 
