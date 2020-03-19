@@ -71,14 +71,11 @@ h2{
 
 .textBox {
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 5%;
     width: 32%;
     text-align: left;
 
-   color: white; 
    letter-spacing: -1px;  
-   background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0.6);
-   padding: 1%;
+ 
 }
