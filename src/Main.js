@@ -26,7 +26,11 @@ export default function Main() {
                 return (
                     <div>
                     <Image imgUrl = {item.hdurl} />
-                    <img id="nasa" src="https://salient-tech.com/wp-content/uploads/2014/08/NASA-worm-logo.png"></img>
+                    <div class="nasaTitle">
+                        <img id="nasa" src="https://salient-tech.com/wp-content/uploads/2014/08/NASA-worm-logo.png"></img>
+    
+                        <h1>ASTRONOMY PICTURE OF THE DAY</h1>
+                    </div>
                     
                     <Text 
                         title = {item.title}

@@ -6,8 +6,8 @@ export default function Text(props){
         <div className='textBox'>
             <h2>{props.title}</h2>
             <h3>{props.date}</h3>
-            <h4>{props.desc}</h4>
-            <h4>{props.author}</h4>
+            <p>{props.desc}</p>
+            <p id="copy">©  {props.author}</p>
         </div>
     )
 }
